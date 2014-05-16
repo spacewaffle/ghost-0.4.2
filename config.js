@@ -9,7 +9,7 @@ config = {
     // ### Development **(default)**
     development: {
         // The url to use when providing links to the site, E.g. in RSS and email.
-        url: 'http://ginsbergacademy.com',
+        url: '127.0.0.1:2368',
 
         // Example mail config
         // Visit http://docs.ghost.org/mail for instructions
@@ -48,7 +48,7 @@ config = {
     // When running Ghost in the wild, use the production environment
     // Configure your URL and mail settings here
     production: {
-        url: 'http://my-ghost-blog.com',
+        url: 'http://www.ginsbergacademy.com',
         mail: {},
         database: {
             client: 'sqlite3',
